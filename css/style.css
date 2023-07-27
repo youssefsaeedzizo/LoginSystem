@@ -1,0 +1,43 @@
+body{
+    background-color: #24353F;
+}
+
+.box-form{
+    background-color: #24353F;
+    box-shadow: rgb(0 0 0) -4px 4px 69px -6px
+}
+
+.box-form input{
+    color: white;
+}
+
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ccc;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ccc;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  span{
+    transition: all 0.5s;
+
+  }
+  span :hover {
+    border-bottom: 1px white solid;
+}
+
+.btn-log-out{
+    right: 20px;
+    top: 20px;
+}
